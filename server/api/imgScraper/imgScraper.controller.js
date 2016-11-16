@@ -8,8 +8,8 @@ exports.scrape = function(req, res){
   var url = req.body.url;
   var scraperToUse;
 
-  if(url.indexOf('pinteret') > -1){
-    scraperToUse = 'pinteret';
+  if(url.indexOf('pinterest') > -1){
+    scraperToUse = 'pinterest';
   } else{
     console.log('cannot locate scraper')
   }
